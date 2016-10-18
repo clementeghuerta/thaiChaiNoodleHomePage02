@@ -1,0 +1,298 @@
+/* [][] Beginning of PERSISTENT NAVIGATION [][]*/
+nav h2 {
+	font-size: 1em;
+	letter-spacing: 4px;
+}
+.avatar {
+	margin:5px;
+}
+.pers_nav3 a {
+	text-transform: uppercase;
+}
+.no-pad{
+	padding: 0;
+}
+.map {
+	display: inline-block;
+}
+.left {
+	position: relative;
+	top: 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+	width: 49.5%;
+}
+.middle {
+	position: relative;
+	top: 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+	width: 49.5%;
+	left: 1%;
+}
+.right {
+	position: relative;
+	top: 36px;
+	margin-left: 0%;
+	padding: 0;
+}
+
+.address-text {
+	position: relative;
+	top: 15px;
+}
+/*
+.pers_bar {
+	height: 10px;
+	background-image: url("../images/banana_leaf2.png");
+}
+*/
+.pers_nav2 a {
+	height: 80px;
+}
+/* [][] End of PERSISTENT NAGIVATION [][]*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.left-button{
+	border: 1px solid #a2ac8c;
+	padding: 5px 5px;
+	border-radius: 5px;
+	
+}
+.phone, .address {
+	width: 30px;
+	padding-bottom: 10px;
+}
+ul {
+	display: block;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #fff;
+	border: none;
+	list-style: none;
+}
+.title-bar {
+	position: relative;
+    top:25px;
+    z-index: 34;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #000;
+    
+}
+.menu-icon::after {
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+}
+
+.header {
+	max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: -1;
+    top: -96px;
+}
+.home-small img{
+	width: 50%;
+}
+.home-large{
+	visibility: hidden;
+}
+.section1{
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 200px;
+	color: #fff;
+}
+.section2 {
+	position: relative;
+	top: 0px;
+	margin: 20px 0 0 0;
+}
+.huge-heading {
+	position: relative;
+	margin-top: 50px;
+	font-size: 3.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.specials{
+	position: relative;
+	top: 25px;
+	color: #fff;
+	z-index: 999;
+}
+.section3a{
+	position: relative;
+	top: -95px;
+	margin: 0 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	padding: 150px 0;
+}
+.section4a, .section4b, .section4c {
+	position: relative;
+	top: -150px;
+	background-color: rgba(0, 0, 0, 0.7); 
+	color: #fff;
+	padding-top: 100px;
+}
+.reviews {
+	position: relative;
+	top: -50px;
+	color: #fff;
+	z-index: 999;
+}
+
+
+h2 {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+
+ul, li {
+  		list-style-type: none;
+  		padding: 0px;
+  		margin: 0px;
+  		left: 0px;
+}
+.specials {
+	padding: 20px 0;
+
+}
+.top-bar, .top-bar ul {
+    background-color: transparent;
+}
+.top-bar {
+		    position: relative;
+		    top: 25px;
+		    background-color: rgba(149, 30, 32, 0.7);
+		    height: 21px;
+		}
+.top-bar-left {
+	position: relative;
+	top: -15px;
+}
+.icon {
+	width: 10px;
+}
+footer {
+	position: relative;
+	top: 0px;
+	clear: both;
+	height: 135px;
+	background-image: url("../images/banana_leaf.png");
+}
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 640px) {
+		.container {
+			max-width: 1000px;
+			width: 100%;
+			margin: auto;
+		}
+		ul {
+			display: flex;
+
+		}
+		li {
+			padding: 0 20px;
+		}
+		.huge-heading {
+		font-size: 5.5em;
+}
+		.header {
+		    max-width: 100%;
+		    height: auto;
+		    -ms-interpolation-mode: bicubic;
+		    display: inline-block;
+		    vertical-align: middle;
+		    position: relative;
+		    z-index: -1;
+		    top: -191px;
+		}
+		.home-large{
+			visibility: visible;
+}
+		body {
+		font-size: 16px;
+}
+
+
+.left {
+
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+	width: 32%;
+}
+.middle {
+
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+	width: 32%;
+	left: 1%;
+}
+.right {
+	position: relative;
+	top: -105px;
+	margin-left: 68%;
+	width: 32%;
+	left: 1%;
+}
+.section3a{
+	position: relative;
+	top: -135px;
+	margin: 0 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	padding: 150px 0;
+}
+.reviews {
+	position: relative;
+	top: 10px;
+}
+.section4a, .section4b, .section4c {
+	position: relative;
+	padding-top: 160px;
+}
+.address-text {
+	position: relative;
+	top: 40px;
+}
+.top-bar-left {
+	position: relative;
+	top: 0px;
+}
+
+		
+		.row-small {
+			height: 120px;
+
+		}
+}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		
+	
+}
+
+footer {
+color: #ffffff;
+}
